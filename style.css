@@ -1,6 +1,6 @@
         <!----------begin style---------->
 			body {
-				background: url('/1000.jpg') no-repeat center center fixed;
+				background: #000 url("/1000.jpg") no-repeat center center fixed;
 				-webkit-background-size: cover;
  				-moz-background-size: cover;
 				-o-background-size: cover;
@@ -9,9 +9,9 @@
 
 			h1 {
 				color: white;
-				font-family: 'Helvetica Neue', Helvetica;
+				font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 				font-weight: 100;
-				font-size: 60px;
+				font-size: 75px;
 				margin: 0px;
 				text-align: center;
 			}
@@ -22,7 +22,7 @@
 
 			p {
 				color: white;
-				font-family: 'Helvetica Neue', Helvetica;
+				font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 				font-weight: 200;
 				text-align: left;
 			}
