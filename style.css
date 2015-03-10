@@ -1,78 +1,77 @@
-        <!----------begin style---------->
-			body {
-				background: #000 url("/1000.jpg") no-repeat center center fixed;
-				-webkit-background-size: cover;
- 				-moz-background-size: cover;
-				-o-background-size: cover;
-  				background-size: cover;
-			}
+body {
+	background: #000 url("1000.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+}
 
-			h1 {
-				color: white;
-				font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-				font-weight: 100;
-				font-size: 75px;
-				margin: 0px;
-				text-align: center;
-			}
-            
-            h1:hover {
-                color: skyblue;
-            }
+h1 {
+	color: white;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 75px;
+	margin: 0px;
+	text-align: center;
+}
 
-			p {
-				color: white;
-				font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-				font-weight: 200;
-				text-align: left;
-			}
-            
-            p:hover {
-                color: skyblue;
-            }
+h1:hover {
+    color: skyblue;
+}
 
-			.box {
-				background-color: rgba(0,0,0,0.3);
-				padding: 5%;	
-				width: 50%;
-                max-width: 500px;
-				margin-top: 10%;
-                margin-right: auto;
-                margin-left: auto;
-                margin-bottom: auto;
-			}
-            
-            .meow {
-                position:absolute;
-                bottom:1px;
-                right:1px;
-                font-family: 'Helvetica Neue', Helvetica;
-				font-weight: 100;
-				font-size: 10px;
-				margin: 0px;
-            }
-            
-           /* unvisited link */
-            a:link {
-                color: white;
-                text-decoration: underline;
-            }
+p {
+	color: white;
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	font-weight: 200;
+	text-align: left;
+}
 
-            /* visited link */
-            a:visited {
-                color: white;
-                text-decoration: underline;
-            }
+p:hover {
+    color: skyblue;
+}
 
-            /* mouse over link */
-            a:hover {
-                color: skyblue;
-                text-decoration: none;
-            }
+.box {
+	background-color: rgba(0,0,0,0.3);
+	padding: 5%;	
+	width: 50%;
+    max-width: 500px;
+	margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
 
-            /* selected link */
-            a:active {
-                color: deepskyblue;
-                text-decoration: none;
-            }
+.meow {
+    position:absolute;
+    bottom:1px;
+    right:1px;
+    font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 100;
+	font-size: 10px;
+	margin: 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+    color: skyblue;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: deepskyblue;
+    text-decoration: none;
+}
         
