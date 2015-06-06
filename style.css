@@ -54,13 +54,13 @@ p:hover {
 /* unvisited link */
 a:link {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: white;
-    text-decoration: underline;
+    color: grey;
+    text-decoration: none;
 }
 
 /* mouse over link */
