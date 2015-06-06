@@ -1,5 +1,5 @@
 body {
-	background: #4F3968 url("bg.jpg") no-repeat center center fixed;
+	background: #4F3968 url("bg.jpg");
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
 	-o-background-size: cover;
