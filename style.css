@@ -7,7 +7,7 @@ body {
 }
 
 .changeBackground {
-  background-image: url("1000.jpg");
+  background: #4F3968 url("1000.jpg");
 }
 
 h1 {
