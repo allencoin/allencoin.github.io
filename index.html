@@ -4,10 +4,8 @@
 
 	<head>
         
-        <!----------begin meta stuff---------->
-        
 		<link rel="stylesheet" type="text/css" href="style.css">
-        
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <meta charset="utf-8">
 
 		<title>Allen Coin</title>
@@ -20,9 +18,9 @@
 
 	<body>
 		<div class="box">
-			<h1>I'm Allen Coin</h1>
+			<h1>Allen Coin</h1>
 
-            <p style="text-align:center"><em>I write things in English and Ruby.</em></p>
+      <p style="text-align:center" id="tagline"><em>I write things in <a href="https://esolangs.org/wiki/English">English</a> and Ruby.</em></p>
 
 			<p>Hi. My name is Allen. This is my cute little GitHub splash page. I'm going to put a real personal website here pretty soon.</p>
 			<br />
@@ -41,11 +39,17 @@
       </a></p>
 
 		</div>
-        
-        <div class="meow">
-             <p>meow</p>
-        </div>
-	</body>
-	
 
+        <div id="meow">
+             <p><a id="purr">meow</a></p>
+        </div>
+
+  <script>
+      $(document).ready(function() {
+          $("#purr").click(function() {
+              $("body").toggleClass("changeBackground");
+          });
+      });
+  </script>
+	</body>
 </html>
